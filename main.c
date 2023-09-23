@@ -6,14 +6,13 @@
  * @av: monty file location
  * Return: 0 on success
  */
-stack_t *stack = NULL;
 
 int main(int ac, char *av[])
 {
-	int line_number = 0;
+	stack_t *stack = NULL;
+	int line_number = 0, read = 1;
 	char *line = NULL, *trimmed_line;
 	size_t line_length = 0;
-	int read = 1;
 	FILE *file;
 
 

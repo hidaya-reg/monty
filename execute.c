@@ -3,8 +3,7 @@
  * execute - Execute the Monty opcode.
  * @opcode: The Monty opcode to execute
  * @stack: Pointer to the stack
- * @lineNumber: The current line number in the Monty file
- * @file: Pointer to the Monty file
+ * @line_number: The current line number in the Monty file
  * Return: 0 on success, 1 on failure
  */
 int execute(char *opcode, stack_t **stack, unsigned int line_number)
