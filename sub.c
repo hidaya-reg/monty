@@ -4,7 +4,7 @@
  * sub -  subtracts the top element of the stack from
  * the second top element of the stack
  * @stack: stack
- * line_number: line number
+ * @line_number: line number
  */
 void sub(stack_t **stack, unsigned int line_number)
 {
