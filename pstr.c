@@ -2,7 +2,7 @@
 /**
  * pstr - prints the string starting at the top of the stack
  * @stack: stack
- * line_number: line number
+ * @line_number: line number
  */
 void pstr(stack_t **stack, unsigned int line_number)
 {
