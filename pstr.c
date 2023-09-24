@@ -6,10 +6,10 @@
  */
 void pstr(stack_t **stack, unsigned int line_number)
 {
-	stack_t *current = *stack;
+	stack_t *c = *stack;
 
 	(void)line_number;
-	while (current != NULL && current->n != 0 && current->n >= 0 && current->n <= 127)
+	while (c != NULL && c->n != 0 && c->n >= 0 && c->n <= 127)
 	{
 		putchar(current->n);
 		current = current->next;
