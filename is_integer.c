@@ -8,6 +8,8 @@
 int is_integer(const char *str)
 {
 	if (str == NULL || *str == '\0')
+		return (0);
+	if (*str == '-')
 		str++;
 	if (*str == '\0')
 		return (0);
